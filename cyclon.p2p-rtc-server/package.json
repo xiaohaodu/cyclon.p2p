@@ -1,0 +1,46 @@
+{
+  "name": "cyclon.p2p-rtc-server",
+  "version": "1.0.2",
+  "description": "A signalling server used by the WebRTC implementation of cyclon.p2p",
+  "keywords": [
+    "webrtc",
+    "cyclon.p2p",
+    "signalling"
+  ],
+  "homepage": "https://gitub.com/nicktindall/cyclon.p2p-rtc-server/wiki",
+  "bugs": "https://github.com/nicktindall/cyclon.p2p-rtc-server/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Nick Tindall",
+    "email": "nick@tindall.id.au",
+    "url": "http://www.tindall.id.au"
+  },
+  "contributors": [
+    {
+      "name": "Aaron Harwood",
+      "email": "aharwood@unimelb.edu.au"
+    }
+  ],
+  "main": "lib/builder.js",
+  "bin": {
+    "cyclon-signalling-server": "./start-server.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicktindall/cyclon.p2p-rtc-server.git"
+  },
+  "scripts": {
+    "test": "nyc jasmine"
+  },
+  "devDependencies": {
+    "jasmine": "^2.99.0",
+    "nyc": "^14.1.1",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "cyclon.p2p-common": "^0.1.11"
+  }
+}

@@ -1,0 +1,17 @@
+.mono {
+    font-family: monospace;
+}
+
+.pre-formatted {
+    white-space: pre;
+}
+
+.blue {
+    color: #0066bb;
+}
+
+.pointer-container {
+    min-height: 400px;
+    max-height:600px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,60 @@
+{
+  "name": "cyclon.p2p-webrtc-demo",
+  "version": "0.0.1",
+  "description": "An angular-based demonstration of the WebRTC implementation of the Cyclon framework",
+  "keywords": [
+    "webrtc",
+    "cyclon.p2p"
+  ],
+  "homepage": "https://gitub.com/nicktindall/cyclon.p2p-webrtc-demo/wiki",
+  "bugs": "https://github.com/nicktindall/cyclon.p2p-webrtc-demo/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Nick Tindall",
+    "email": "nick@tindall.id.au",
+    "url": "http://www.tindall.id.au"
+  },
+  "contributors": [
+    {
+      "name": "Aaron Harwood",
+      "email": "aharwood@unimelb.edu.au"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicktindall/cyclon.p2p-webrtc-demo.git"
+  },
+  "scripts": {
+    "build": "gulp heroku:production",
+    "build-local": "gulp",
+    "test": "make test",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "gulp": "3.8.x",
+    "gulp-clean": "0.3.x",
+    "gulp-insert": "0.3.x",
+    "gulp-preprocess": "^3.0.3",
+    "gulp-terser": "^1.2.0",
+    "rimraf": "2.2.x",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "angular": "^1.8.0",
+    "angular-bootstrap": "^0.12.2",
+    "bowser": "0.7.x",
+    "cyclon.p2p": "^1.0.0",
+    "cyclon.p2p-common": "^0.1.11",
+    "cyclon.p2p-rtc-client": "^1.0.2",
+    "cyclon.p2p-rtc-comms": "^1.1.1",
+    "events": "1.0.x",
+    "express": "4.9.x",
+    "gauss": "0.2.x",
+    "zeroclipboard": "2.1.6"
+  },
+  "engines": {
+    "node": "10"
+  }
+}

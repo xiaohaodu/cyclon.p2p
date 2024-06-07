@@ -1,0 +1,45 @@
+{
+  "name": "cyclon.p2p-common",
+  "version": "0.1.11",
+  "description": "Common utilities used by the cyclon.p2p stuff",
+  "keywords": [
+    "cyclon.p2p",
+    "utils"
+  ],
+  "homepage": "https://gitub.com/nicktindall/cyclon.p2p-common/wiki",
+  "bugs": "https://github.com/nicktindall/cyclon.p2p-common/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Nick Tindall",
+    "email": "nick@tindall.id.au",
+    "url": "http://www.tindall.id.au"
+  },
+  "contributors": [
+    {
+      "name": "Aaron Harwood",
+      "email": "aharwood@unimelb.edu.au"
+    }
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicktindall/cyclon.p2p-common.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "make test",
+    "clean": "make clean",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "istanbul": "0.3.x",
+    "jasmine-node": "2.0.x",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^3.1.43",
+    "@types/node": "^10.14.19",
+    "crypto-js": "^3.1.9-1"
+  }
+}

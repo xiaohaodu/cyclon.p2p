@@ -1,0 +1,6 @@
+.nyc_output/
+node_modules/
+.idea/
+*.iml
+newrelic_agent.log
+
